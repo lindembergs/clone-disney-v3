@@ -35,6 +35,10 @@ body {
   justify-content: start;
   align-items: center;
 }
+.nav_bar .logo {
+  width: 79px;
+  height: 48px;
+}
 .nav_bar ul {
   list-style: none;
   display: flex;
@@ -61,4 +65,22 @@ body {
   display: flex;
   justify-content: end;
   padding-right: 20px;
+}
+.perfil img {
+  width: 46.54px;
+  height: 48px;
+}
+
+.main {
+  padding-left: 85px;
+}
+.elemental {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.elemental img {
+  width: 347px;
+  height: 191.81px;
 }
