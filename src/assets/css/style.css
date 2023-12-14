@@ -402,4 +402,12 @@ address p {
     letter-spacing: 0.08em;
     text-align: left;
   }
+  .carousel {
+    padding-bottom: 150px;
+  }
+  .carousel img {
+    width: 166px;
+    height: 93.38px;
+    border-radius: 1.85px;
+  }
 }
