@@ -530,13 +530,13 @@ address p {
     text-align: left;
   }
   .suggest_bar ul {
-    gap: 20px;
+    gap: 40px;
   }
   .suggest_bar li {
-    font-size: 1.125rem;
+    font-size: 1.18rem;
     font-weight: 600;
-    line-height: 27px;
-    letter-spacing: 0.08em;
+    line-height: 30px;
+    letter-spacing: 0.1em;
     text-align: left;
   }
   .carousel {
