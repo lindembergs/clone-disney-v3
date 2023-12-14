@@ -324,3 +324,50 @@ address p {
   text-align: center;
   color: #cacacaf9;
 }
+
+@media (max-width: 430px) {
+  .nav_bar {
+    margin-top: -6px;
+  }
+  .nav_bar .icon_home {
+    width: 18.4px;
+    height: 16.66px;
+  }
+  .bg_mobile {
+    background-color: #1a1d29;
+  }
+  .nav_hide {
+    display: none;
+  }
+  .nav_bar .logo {
+    width: 63px;
+    height: 38px;
+    margin-left: -20px;
+  }
+
+  .nav_bar ul {
+    flex-direction: row;
+    gap: 18px;
+    margin-left: 20px;
+  }
+  .perfil img {
+    width: 36px;
+    height: 36px;
+  }
+  body {
+    background-size: contain;
+    background-position: center top;
+  }
+  .elemental {
+    width: 100%;
+    height: 100%;
+  }
+  .elemental img {
+    width: 150.5px;
+    height: 84.66px;
+    margin-left: 22px;
+    margin-top: 27px;
+    margin-bottom: -12px;
+    padding-top: 5px;
+  }
+}

@@ -15,56 +15,54 @@
   <body>
     <header class="header">
       <nav class="nav_bar">
-        <img
-          class="logo"
-          src="src/assets/img/logo.svg"
-          alt="logo da Disney"
-          srcset=""
-        />
+        <img class="logo" src="src/assets/img/logo.svg" alt="logo da Disney" />
         <ul>
           <li>
             <a href="#"
-              ><img src="src/assets/icons/home.svg" alt="imagem home" />HOME</a
+              ><img class="icon_home" src="src/assets/icons/home.svg" alt="imagem home" /><span
+                > <span class="nav_hide"> HOME</span
+              ></a
             >
           </li>
           <li>
             <a href="#"
-              ><img
+              ><img class="icon_search"
                 src="src/assets/icons/search.svg"
                 alt="imagem da lupa de pesquisa"
-              />SEARCH</a
-            >
+              />
+              <span class="nav_hide">SEARCH</span></a>
           </li>
-          <li>
+          <li><span class="nav_hide">
+            
             <a href="#"
-              ><img
-                src="src/assets/icons/add.svg"
-                alt="imagem do +"
-              />WATCHLIST</a
-            >
+              ><img src="src/assets/icons/add.svg" alt="imagem do +" />
+               WATCHLIST</span></a></span>
           </li>
           <li>
+            <img src="src/assets/icons/more.svg" alt="imagem do vertice de mais opções">
+          </li>
+          <li><span class="nav_hide">
             <a href="#"
               ><img
                 src="src/assets/icons/originals.svg"
                 alt="imagem do originals"
-              />ORIGINALS</a
-            >
+              />ORIGINALS</a></span>
+            
           </li>
-          <li>
+          <li><span class="nav_hide">
             <a href="#"
               ><img
                 src="src/assets/icons/movies.svg"
                 alt="imagem dos filmes"
-              />MOVIES</a
-            >
+              />MOVIES</a></span>
+            
           </li>
-          <li>
+          <li><span class="nav_hide">
             <a href="#"
               ><img
                 src="src/assets/icons/tv.svg"
                 alt="imagem das séries"
-              />SERIES</a
+              />SERIES</span></a></span>
             >
           </li>
         </ul>
@@ -74,13 +72,16 @@
       </nav>
     </header>
     <main>
+      <div class="elemental">
+        <img
+          src="src/assets/img/elemental.svg"
+          alt="imagem do filme elemental"
+        />
+      </div>
+      <div class="bg_mobile">
       <section class="main">
-        <div class="elemental">
-          <img
-            src="src/assets/img/elemental.svg"
-            alt="imagem do filme elemental"
-          />
-        </div>
+        
+        
         <div class="description">
           <ul>
             <li>
@@ -165,6 +166,7 @@
             </li>
           </ul>
         </div>
+      </div>
       </section>
       <div class="bg_carousel"></div>
     </main>
