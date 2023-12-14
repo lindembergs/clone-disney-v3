@@ -461,7 +461,7 @@ address p {
   }
   .bg_mobile {
     height: 500px;
-    background: linear-gradient(to top, #1a1d29 74%, transparent 30%);
+    background: linear-gradient(to top, #1a1d29 68.8%, transparent 30%);
   }
   .nav_hide {
     display: none;
@@ -505,17 +505,28 @@ address p {
     font-size: 0.72rem;
   }
   .play {
-    padding-top: 45px;
-    width: 65%;
+    padding-top: 30px;
+    width: 33%;
+  }
+  .play img:first-child {
+    width: 178.81px;
+    height: 52.59px;
+    border-radius: 2.58px;
+  }
+  .play img:last-child {
+    width: 47.68px;
+    height: 47.68px;
+    border: 2.92px;
   }
   .article {
+    margin-top: -10px;
     width: 90%;
   }
   .article p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 300;
-    line-height: 31px;
-    letter-spacing: 0.07em;
+    line-height: 36px;
+    letter-spacing: 0.09em;
     text-align: left;
   }
   .suggest_bar ul {
