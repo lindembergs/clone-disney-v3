@@ -454,14 +454,14 @@ address p {
 @media (min-width: 431px) and (max-width: 800px) {
   .nav_bar {
     margin-top: 0px;
-    padding-left: 3px;
   }
   .nav_bar .icon_home {
     width: 18.4px;
     height: 16.66px;
   }
   .bg_mobile {
-    background-color: #1a1d29;
+    height: 500px;
+    background: linear-gradient(to top, #1a1d29 74%, transparent 30%);
   }
   .nav_hide {
     display: none;
@@ -489,14 +489,14 @@ address p {
     height: 100%;
   }
   .elemental img {
-    width: 142.5px;
-    height: 84.66px;
-    margin-left: 25px;
+    width: 280.41px;
+    height: 157.73px;
+    margin-left: 30px;
     margin-top: 20px;
-    margin-bottom: -3px;
+    margin-bottom: -18px;
   }
   .main {
-    padding-left: 25px;
+    padding-left: 30px;
   }
   .description_title p {
     font-size: 0.6rem;
