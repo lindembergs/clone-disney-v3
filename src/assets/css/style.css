@@ -363,12 +363,11 @@ address p {
     height: 100%;
   }
   .elemental img {
-    width: 150.5px;
+    width: 142.5px;
     height: 84.66px;
-    margin-left: 22px;
-    margin-top: 27px;
-    margin-bottom: -12px;
-    padding-top: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: -3px;
   }
   .main {
     padding-left: 40px;
@@ -378,5 +377,19 @@ address p {
   }
   #remaining {
     font-size: 0.72rem;
+  }
+  .play {
+    padding-top: 45px;
+    width: 65%;
+  }
+  .article {
+    width: 90%;
+  }
+  .article p {
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: left;
   }
 }
