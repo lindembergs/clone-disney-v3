@@ -370,7 +370,7 @@ address p {
     margin-bottom: -3px;
   }
   .main {
-    padding-left: 40px;
+    padding-left: 25px;
   }
   .description_title p {
     font-size: 0.6rem;
@@ -410,6 +410,13 @@ address p {
     height: 93.38px;
     border-radius: 1.85px;
   }
+  .footer_logo {
+    margin-bottom: -10px;
+  }
+  .footer_logo img {
+    width: 63px;
+    height: 38px;
+  }
   .first_ul ul {
     gap: 15px;
   }
@@ -429,5 +436,15 @@ address p {
     line-height: 23px;
     letter-spacing: -0.08em;
     text-align: left;
+  }
+  address {
+    width: 75%;
+  }
+  address p {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.06em;
+    text-align: center;
   }
 }
