@@ -186,3 +186,25 @@ body {
   text-align: left;
   color: #f9f9f9;
 }
+.suggest_bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+.suggest_bar ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.suggest_bar li {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #f9f9f9;
+}
