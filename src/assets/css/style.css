@@ -410,4 +410,24 @@ address p {
     height: 93.38px;
     border-radius: 1.85px;
   }
+  .first_ul ul {
+    gap: 15px;
+  }
+  .first_ul a {
+    font-size: 0.72rem;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.08em;
+    text-align: left;
+  }
+  .second_ul ul {
+    gap: 18px;
+  }
+  .second_ul a {
+    font-size: 0.72rem;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.08em;
+    text-align: left;
+  }
 }
