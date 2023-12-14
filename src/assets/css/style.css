@@ -370,4 +370,13 @@ address p {
     margin-bottom: -12px;
     padding-top: 5px;
   }
+  .main {
+    padding-left: 40px;
+  }
+  .description_title p {
+    font-size: 0.6rem;
+  }
+  #remaining {
+    font-size: 0.72rem;
+  }
 }
