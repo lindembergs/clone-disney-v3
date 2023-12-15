@@ -451,7 +451,7 @@ address p {
   }
 }
 
-@media (min-width: 431px) and (max-width: 800px) {
+@media (min-width: 431px) and (max-width: 834px) {
   .nav_bar {
     margin-top: 0px;
   }
@@ -539,13 +539,15 @@ address p {
     letter-spacing: 0.1em;
     text-align: left;
   }
-  .carousel {
-    padding-bottom: 150px;
-  }
+
   .carousel img {
-    width: 166px;
-    height: 93.38px;
-    border-radius: 1.85px;
+    width: 222.2px;
+    height: 124.99px;
+    border-radius: 2.42px;
+  }
+  .bg_carousel {
+    height: 200px;
+    background-color: #1a1d29;
   }
   .footer_logo {
     margin-bottom: -10px;
