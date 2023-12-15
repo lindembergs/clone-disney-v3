@@ -327,7 +327,7 @@ address p {
   color: #cacacaf9;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
   .nav_bar {
     margin-top: -6px;
   }
@@ -451,7 +451,7 @@ address p {
   }
 }
 
-@media (min-width: 431px) and (max-width: 834px) {
+@media (min-width: 481px) and (max-width: 884px) {
   .nav_bar {
     margin-top: 0px;
   }
