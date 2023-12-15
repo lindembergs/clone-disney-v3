@@ -587,3 +587,13 @@ address p {
     text-align: center;
   }
 }
+@media (min-width: 890px) {
+  /* .main {
+    padding-bottom: 20px;
+  } */
+  .bg_carousel {
+    height: 150px;
+    max-width: 100%;
+    background-color: #1a1d29;
+  }
+}
