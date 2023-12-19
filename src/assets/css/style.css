@@ -707,6 +707,11 @@ address p {
     text-align: center;
   }
 }
+@media (min-width: 885px) {
+  .hamburguer {
+    display: none;
+  }
+}
 @media (min-width: 890px) {
   .bg_carousel {
     height: 150px;
