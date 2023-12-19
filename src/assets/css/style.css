@@ -57,8 +57,8 @@ body {
   gap: 10px;
   text-decoration: none;
   color: #f9f9f9f9;
-  font-size: 13px;
-  font-weight: 900;
+  font-size: 15px;
+  font-weight: 600;
   line-height: 20px;
   letter-spacing: 0.03em;
   text-align: left;
@@ -522,7 +522,7 @@ address p {
   }
   .play {
     padding-top: 45px;
-    width: 65%;
+    width: 225px;
   }
   .article {
     width: 90%;
@@ -645,9 +645,9 @@ address p {
   }
   .play {
     padding-top: 30px;
-    width: 33%;
+    width: 230px;
   }
-  .play img:first-child {
+  /* .play img:first-child {
     width: 178.81px;
     height: 52.59px;
     border-radius: 2.58px;
@@ -656,7 +656,7 @@ address p {
     width: 47.68px;
     height: 47.68px;
     border: 2.92px;
-  }
+  } */
   .article {
     margin-top: -10px;
     width: 90%;
@@ -729,6 +729,13 @@ address p {
 @media (min-width: 885px) {
   .hamburguer {
     display: none;
+  }
+  .play {
+    width: 220px;
+  }
+  .play img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (min-width: 890px) {
