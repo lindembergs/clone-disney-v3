@@ -19,7 +19,10 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
+  /* background no body para corrigir o problema de margem branca */
+  background-color: #1a1d29;
 }
+
 .header {
   padding: 15px 0px 0px 40px;
   width: 100%;
@@ -339,9 +342,6 @@ address p {
     width: 18.4px;
     height: 16.66px;
   }
-  .bg_mobile {
-    background-color: #1a1d29;
-  }
   .nav_hide {
     display: none;
   }
@@ -459,9 +459,6 @@ address p {
     width: 18.4px;
     height: 16.66px;
   }
-  .bg_mobile {
-    background-color: #1a1d29;
-  }
   .nav_hide {
     display: none;
   }
@@ -574,7 +571,6 @@ address p {
     text-align: center;
   }
 }
-
 @media (min-width: 481px) and (max-width: 884px) {
   .nav_bar {
     margin-top: 0px;
@@ -583,10 +579,10 @@ address p {
     width: 18.4px;
     height: 16.66px;
   }
-  .bg_mobile {
+  /* .bg_mobile {
     height: 500px;
     background: linear-gradient(to top, #1a1d29 68.8%, transparent 30%);
-  }
+  } */
   .nav_hide {
     display: none;
   }
@@ -712,9 +708,6 @@ address p {
   }
 }
 @media (min-width: 890px) {
-  /* .main {
-    padding-bottom: 20px;
-  } */
   .bg_carousel {
     height: 150px;
     max-width: 100%;
