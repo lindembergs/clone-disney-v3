@@ -92,6 +92,7 @@ body {
 .perfil img {
   width: 46.54px;
   height: 48px;
+  cursor: pointer;
 }
 
 .main {
@@ -166,11 +167,13 @@ body {
   width: 170px;
   height: 50px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .play img:last-child {
   width: 40px;
   height: 40px;
   border-radius: 3px;
+  cursor: pointer;
 }
 .progress {
   padding-block: 20px;
@@ -233,6 +236,7 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: #f9f9f9;
+  cursor: pointer;
 }
 
 .suggest-bar-toggle {
@@ -301,6 +305,10 @@ footer {
   color: #cacacaf9;
   text-decoration: none;
 }
+.first_ul a:hover {
+  opacity: 80%;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 .second_ul ul {
   list-style: none;
   display: flex;
@@ -318,6 +326,10 @@ footer {
   letter-spacing: -0.08em;
   color: #cacacaf9;
   text-decoration: none;
+}
+.second_ul a:hover {
+  opacity: 80%;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .about {
   width: 100%;
