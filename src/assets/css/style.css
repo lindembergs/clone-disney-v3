@@ -96,7 +96,10 @@ body {
 }
 
 .main {
+  /* forma padrão */
   padding-left: 85.01px;
+  /* forma do padding com calc */
+  /* padding: 0px calc(3vw + 25px); */
   flex: 1 1 0;
 }
 .elemental {
@@ -168,6 +171,10 @@ body {
   height: 50px;
   border-radius: 3px;
   cursor: pointer;
+}
+.play img:first-child:hover {
+  opacity: 80%;
+  transition: all 0.3s ease-in-out;
 }
 .play img:last-child {
   width: 40px;
