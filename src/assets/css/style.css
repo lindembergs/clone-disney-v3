@@ -260,7 +260,7 @@ body {
   width: 100%;
   display: flex;
   padding-top: 20px;
-  overflow: hidden;
+  overflow-x: auto;
 }
 .carousel ul {
   list-style: none;
